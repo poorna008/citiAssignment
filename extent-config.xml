@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- document encoding -->
+		<!-- defaults to UTE-8 -->
+		<encoding>
+			UTF-8
+		</encoding>
+
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>
+			https
+		</protocol>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>
+			standard
+		</theme>
+		<!-- title of the document -->
+
+		<documentTit1e>
+			ActiTime Report_JULY_2
+		</documentTit1e>
+
+		<!-- report name - displayed at top-nav -->
+
+		<reportName>
+			ActiTime Test Automation Report_JULY_2
+		</reportName>
+		<!-- report headline - displayed at top-nav, after reportHeadline -->
+
+		<reportHeadline>
+		</reportHeadline>
+		<!-- global date format override -->
+
+		<!-- defaults to yyyy-MM-dd -->
+		<dateFormat>
+			dd-MM-yyyy
+		</dateFormat>
+		<!-- global time format override -->
+
+		<!-- defaults to HH:mm:ss -->
+		<timeFormat>HH:mm:ss</timeFormat>
+		<!-- custom javascript -->
+
+		<scripts>
+			<![CDATA[$(document).ready(function() {});]]>
+		</scripts>
+		<scripts>
+			<![CDATA[$(document).ready(function(){$('.dashboard-View').click(); });]]>
+		</scripts>
+		<!-- custom styles -->
+
+		<styles> <![CDATA[        ]]>
+		</styles>
+	</configuration>
+</extentreports>
